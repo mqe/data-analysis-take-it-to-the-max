@@ -1,0 +1,841 @@
+create (_0:`country` {`name`:"Albania"})
+create (_1:`country` {`name`:"Armenia"})
+create (_2:`country` {`name`:"Australia"})
+create (_3:`country` {`name`:"Austria"})
+create (_4:`country` {`name`:"Azerbaijan"})
+create (_5:`country` {`name`:"Belarus"})
+create (_6:`country` {`name`:"Belgium"})
+create (_7:`country` {`name`:"Cyprus"})
+create (_8:`country` {`name`:"Czech Republic"})
+create (_9:`country` {`name`:"Denmark"})
+create (_10:`country` {`name`:"Estonia"})
+create (_11:`country` {`name`:"F.Y.R. Macedonia"})
+create (_12:`country` {`name`:"Finland"})
+create (_13:`country` {`name`:"France"})
+create (_14:`country` {`name`:"Georgia"})
+create (_15:`country` {`name`:"Germany"})
+create (_16:`country` {`name`:"Greece"})
+create (_17:`country` {`name`:"Hungary"})
+create (_18:`country` {`name`:"Iceland"})
+create (_19:`country` {`name`:"Ireland"})
+create (_20:`country` {`name`:"Israel"})
+create (_21:`country` {`name`:"Italy"})
+create (_22:`country` {`name`:"Latvia"})
+create (_23:`country` {`name`:"Lithuania"})
+create (_24:`country` {`name`:"Malta"})
+create (_25:`country` {`name`:"Moldova"})
+create (_26:`country` {`name`:"Montenegro"})
+create (_27:`country` {`name`:"Norway"})
+create (_28:`country` {`name`:"Poland"})
+create (_29:`country` {`name`:"Portugal"})
+create (_30:`country` {`name`:"Romania"})
+create (_31:`country` {`name`:"Russia"})
+create (_32:`country` {`name`:"San Marino"})
+create (_33:`country` {`name`:"Serbia"})
+create (_34:`country` {`name`:"Slovenia"})
+create (_35:`country` {`name`:"Spain"})
+create (_36:`country` {`name`:"Sweden"})
+create (_37:`country` {`name`:"Switzerland"})
+create (_38:`country` {`name`:"The Netherlands"})
+create (_39:`country` {`name`:"United Kingdom"})
+create (_0)-[:`gives` {`points`:"3"}]->(_2
+)
+create (_0)-[:`gives` {`points`:"2"}]->(_33
+)
+create (_0)-[:`gives` {`points`:"1"}]->(_6
+)
+create (_0)-[:`gives` {`points`:"10"}]->(_16
+)
+create (_0)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_0)-[:`gives` {`points`:"7"}]->(_36
+)
+create (_0)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_0)-[:`gives` {`points`:"6"}]->(_26
+)
+create (_0)-[:`gives` {`points`:"4"}]->(_10
+)
+create (_0)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_1)-[:`gives` {`points`:"3"}]->(_13
+)
+create (_1)-[:`gives` {`points`:"2"}]->(_22
+)
+create (_1)-[:`gives` {`points`:"1"}]->(_2
+)
+create (_1)-[:`gives` {`points`:"10"}]->(_14
+)
+create (_1)-[:`gives` {`points`:"12"}]->(_31
+)
+create (_1)-[:`gives` {`points`:"7"}]->(_36
+)
+create (_1)-[:`gives` {`points`:"8"}]->(_26
+)
+create (_1)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_1)-[:`gives` {`points`:"4"}]->(_6
+)
+create (_1)-[:`gives` {`points`:"5"}]->(_16
+)
+create (_2)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_2)-[:`gives` {`points`:"2"}]->(_20
+)
+create (_2)-[:`gives` {`points`:"1"}]->(_14
+)
+create (_2)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_2)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_2)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_2)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_2)-[:`gives` {`points`:"6"}]->(_6
+)
+create (_2)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_2)-[:`gives` {`points`:"5"}]->(_33
+)
+create (_3)-[:`gives` {`points`:"3"}]->(_33
+)
+create (_3)-[:`gives` {`points`:"2"}]->(_20
+)
+create (_3)-[:`gives` {`points`:"1"}]->(_22
+)
+create (_3)-[:`gives` {`points`:"10"}]->(_21
+)
+create (_3)-[:`gives` {`points`:"12"}]->(_2
+)
+create (_3)-[:`gives` {`points`:"7"}]->(_36
+)
+create (_3)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_3)-[:`gives` {`points`:"6"}]->(_10
+)
+create (_3)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_3)-[:`gives` {`points`:"5"}]->(_6
+)
+create (_4)-[:`gives` {`points`:"3"}]->(_34
+)
+create (_4)-[:`gives` {`points`:"2"}]->(_26
+)
+create (_4)-[:`gives` {`points`:"1"}]->(_35
+)
+create (_4)-[:`gives` {`points`:"10"}]->(_14
+)
+create (_4)-[:`gives` {`points`:"12"}]->(_31
+)
+create (_4)-[:`gives` {`points`:"7"}]->(_20
+)
+create (_4)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_4)-[:`gives` {`points`:"6"}]->(_36
+)
+create (_4)-[:`gives` {`points`:"4"}]->(_10
+)
+create (_4)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_5)-[:`gives` {`points`:"3"}]->(_14
+)
+create (_5)-[:`gives` {`points`:"2"}]->(_20
+)
+create (_5)-[:`gives` {`points`:"1"}]->(_21
+)
+create (_5)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_5)-[:`gives` {`points`:"12"}]->(_31
+)
+create (_5)-[:`gives` {`points`:"7"}]->(_10
+)
+create (_5)-[:`gives` {`points`:"8"}]->(_6
+)
+create (_5)-[:`gives` {`points`:"6"}]->(_2
+)
+create (_5)-[:`gives` {`points`:"4"}]->(_1
+)
+create (_5)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_6)-[:`gives` {`points`:"3"}]->(_1
+)
+create (_6)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_6)-[:`gives` {`points`:"1"}]->(_14
+)
+create (_6)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_6)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_6)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_6)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_6)-[:`gives` {`points`:"6"}]->(_0
+)
+create (_6)-[:`gives` {`points`:"4"}]->(_2
+)
+create (_6)-[:`gives` {`points`:"5"}]->(_30
+)
+create (_7)-[:`gives` {`points`:"3"}]->(_22
+)
+create (_7)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_7)-[:`gives` {`points`:"1"}]->(_30
+)
+create (_7)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_7)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_7)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_7)-[:`gives` {`points`:"8"}]->(_16
+)
+create (_7)-[:`gives` {`points`:"6"}]->(_20
+)
+create (_7)-[:`gives` {`points`:"4"}]->(_2
+)
+create (_7)-[:`gives` {`points`:"5"}]->(_31
+)
+create (_8)-[:`gives` {`points`:"3"}]->(_33
+)
+create (_8)-[:`gives` {`points`:"2"}]->(_1
+)
+create (_8)-[:`gives` {`points`:"1"}]->(_17
+)
+create (_8)-[:`gives` {`points`:"12"}]->(_4
+)
+create (_8)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_8)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_8)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_8)-[:`gives` {`points`:"6"}]->(_6
+)
+create (_8)-[:`gives` {`points`:"4"}]->(_14
+)
+create (_8)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_9)-[:`gives` {`points`:"3"}]->(_27
+)
+create (_9)-[:`gives` {`points`:"2"}]->(_30
+)
+create (_9)-[:`gives` {`points`:"1"}]->(_23
+)
+create (_9)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_9)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_9)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_9)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_9)-[:`gives` {`points`:"6"}]->(_10
+)
+create (_9)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_9)-[:`gives` {`points`:"5"}]->(_21
+)
+create (_10)-[:`gives` {`points`:"3"}]->(_21
+)
+create (_10)-[:`gives` {`points`:"2"}]->(_23
+)
+create (_10)-[:`gives` {`points`:"1"}]->(_14
+)
+create (_10)-[:`gives` {`points`:"12"}]->(_31
+)
+create (_10)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_10)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_10)-[:`gives` {`points`:"8"}]->(_17
+)
+create (_10)-[:`gives` {`points`:"6"}]->(_22
+)
+create (_10)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_10)-[:`gives` {`points`:"5"}]->(_2
+)
+create (_11)-[:`gives` {`points`:"3"}]->(_1
+)
+create (_11)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_11)-[:`gives` {`points`:"1"}]->(_6
+)
+create (_11)-[:`gives` {`points`:"12"}]->(_0
+)
+create (_11)-[:`gives` {`points`:"10"}]->(_33
+)
+create (_11)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_11)-[:`gives` {`points`:"8"}]->(_34
+)
+create (_11)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_11)-[:`gives` {`points`:"4"}]->(_26
+)
+create (_11)-[:`gives` {`points`:"5"}]->(_36
+)
+create (_12)-[:`gives` {`points`:"3"}]->(_20
+)
+create (_12)-[:`gives` {`points`:"2"}]->(_21
+)
+create (_12)-[:`gives` {`points`:"1"}]->(_34
+)
+create (_12)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_12)-[:`gives` {`points`:"10"}]->(_10
+)
+create (_12)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_12)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_12)-[:`gives` {`points`:"6"}]->(_22
+)
+create (_12)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_12)-[:`gives` {`points`:"5"}]->(_2
+)
+create (_13)-[:`gives` {`points`:"3"}]->(_1
+)
+create (_13)-[:`gives` {`points`:"2"}]->(_2
+)
+create (_13)-[:`gives` {`points`:"1"}]->(_17
+)
+create (_13)-[:`gives` {`points`:"12"}]->(_6
+)
+create (_13)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_13)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_13)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_13)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_13)-[:`gives` {`points`:"4"}]->(_28
+)
+create (_13)-[:`gives` {`points`:"5"}]->(_35
+)
+create (_14)-[:`gives` {`points`:"3"}]->(_23
+)
+create (_14)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_14)-[:`gives` {`points`:"1"}]->(_20
+)
+create (_14)-[:`gives` {`points`:"12"}]->(_1
+)
+create (_14)-[:`gives` {`points`:"10"}]->(_4
+)
+create (_14)-[:`gives` {`points`:"7"}]->(_36
+)
+create (_14)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_14)-[:`gives` {`points`:"6"}]->(_6
+)
+create (_14)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_14)-[:`gives` {`points`:"5"}]->(_31
+)
+create (_15)-[:`gives` {`points`:"3"}]->(_21
+)
+create (_15)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_15)-[:`gives` {`points`:"1"}]->(_17
+)
+create (_15)-[:`gives` {`points`:"12"}]->(_31
+)
+create (_15)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_15)-[:`gives` {`points`:"7"}]->(_2
+)
+create (_15)-[:`gives` {`points`:"8"}]->(_6
+)
+create (_15)-[:`gives` {`points`:"6"}]->(_22
+)
+create (_15)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_15)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_16)-[:`gives` {`points`:"3"}]->(_22
+)
+create (_16)-[:`gives` {`points`:"2"}]->(_14
+)
+create (_16)-[:`gives` {`points`:"1"}]->(_1
+)
+create (_16)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_16)-[:`gives` {`points`:"10"}]->(_7
+)
+create (_16)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_16)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_16)-[:`gives` {`points`:"5"}]->(_2
+)
+create (_16)-[:`gives` {`points`:"6"}]->(_0
+)
+create (_16)-[:`gives` {`points`:"4"}]->(_36
+)
+create (_17)-[:`gives` {`points`:"3"}]->(_14
+)
+create (_17)-[:`gives` {`points`:"2"}]->(_21
+)
+create (_17)-[:`gives` {`points`:"1"}]->(_30
+)
+create (_17)-[:`gives` {`points`:"12"}]->(_6
+)
+create (_17)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_17)-[:`gives` {`points`:"7"}]->(_10
+)
+create (_17)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_17)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_17)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_17)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_18)-[:`gives` {`points`:"3"}]->(_31
+)
+create (_18)-[:`gives` {`points`:"2"}]->(_34
+)
+create (_18)-[:`gives` {`points`:"1"}]->(_10
+)
+create (_18)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_18)-[:`gives` {`points`:"10"}]->(_27
+)
+create (_18)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_18)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_18)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_18)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_18)-[:`gives` {`points`:"4"}]->(_6
+)
+create (_19)-[:`gives` {`points`:"3"}]->(_28
+)
+create (_19)-[:`gives` {`points`:"2"}]->(_6
+)
+create (_19)-[:`gives` {`points`:"1"}]->(_39
+)
+create (_19)-[:`gives` {`points`:"12"}]->(_22
+)
+create (_19)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_19)-[:`gives` {`points`:"7"}]->(_23
+)
+create (_19)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_19)-[:`gives` {`points`:"5"}]->(_2
+)
+create (_19)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_19)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_20)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_20)-[:`gives` {`points`:"2"}]->(_33
+)
+create (_20)-[:`gives` {`points`:"1"}]->(_35
+)
+create (_20)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_20)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_20)-[:`gives` {`points`:"7"}]->(_2
+)
+create (_20)-[:`gives` {`points`:"8"}]->(_31
+)
+create (_20)-[:`gives` {`points`:"5"}]->(_30
+)
+create (_20)-[:`gives` {`points`:"6"}]->(_34
+)
+create (_20)-[:`gives` {`points`:"4"}]->(_6
+)
+create (_21)-[:`gives` {`points`:"3"}]->(_33
+)
+create (_21)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_21)-[:`gives` {`points`:"1"}]->(_28
+)
+create (_21)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_21)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_21)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_21)-[:`gives` {`points`:"8"}]->(_20
+)
+create (_21)-[:`gives` {`points`:"5"}]->(_27
+)
+create (_21)-[:`gives` {`points`:"6"}]->(_2
+)
+create (_21)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_22)-[:`gives` {`points`:"3"}]->(_34
+)
+create (_22)-[:`gives` {`points`:"2"}]->(_27
+)
+create (_22)-[:`gives` {`points`:"1"}]->(_20
+)
+create (_22)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_22)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_22)-[:`gives` {`points`:"7"}]->(_23
+)
+create (_22)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_22)-[:`gives` {`points`:"5"}]->(_2
+)
+create (_22)-[:`gives` {`points`:"6"}]->(_10
+)
+create (_22)-[:`gives` {`points`:"4"}]->(_6
+)
+create (_23)-[:`gives` {`points`:"3"}]->(_2
+)
+create (_23)-[:`gives` {`points`:"2"}]->(_4
+)
+create (_23)-[:`gives` {`points`:"1"}]->(_21
+)
+create (_23)-[:`gives` {`points`:"12"}]->(_22
+)
+create (_23)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_23)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_23)-[:`gives` {`points`:"8"}]->(_10
+)
+create (_23)-[:`gives` {`points`:"5"}]->(_27
+)
+create (_23)-[:`gives` {`points`:"6"}]->(_14
+)
+create (_23)-[:`gives` {`points`:"4"}]->(_34
+)
+create (_24)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_24)-[:`gives` {`points`:"2"}]->(_27
+)
+create (_24)-[:`gives` {`points`:"1"}]->(_39
+)
+create (_24)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_24)-[:`gives` {`points`:"8"}]->(_4
+)
+create (_24)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_24)-[:`gives` {`points`:"7"}]->(_31
+)
+create (_24)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_24)-[:`gives` {`points`:"6"}]->(_2
+)
+create (_24)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_25)-[:`gives` {`points`:"3"}]->(_4
+)
+create (_25)-[:`gives` {`points`:"2"}]->(_22
+)
+create (_25)-[:`gives` {`points`:"1"}]->(_35
+)
+create (_25)-[:`gives` {`points`:"12"}]->(_30
+)
+create (_25)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_25)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_25)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_25)-[:`gives` {`points`:"5"}]->(_14
+)
+create (_25)-[:`gives` {`points`:"6"}]->(_6
+)
+create (_25)-[:`gives` {`points`:"4"}]->(_2
+)
+create (_26)-[:`gives` {`points`:"3"}]->(_20
+)
+create (_26)-[:`gives` {`points`:"2"}]->(_35
+)
+create (_26)-[:`gives` {`points`:"1"}]->(_10
+)
+create (_26)-[:`gives` {`points`:"12"}]->(_33
+)
+create (_26)-[:`gives` {`points`:"8"}]->(_4
+)
+create (_26)-[:`gives` {`points`:"10"}]->(_0
+)
+create (_26)-[:`gives` {`points`:"7"}]->(_31
+)
+create (_26)-[:`gives` {`points`:"5"}]->(_36
+)
+create (_26)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_26)-[:`gives` {`points`:"4"}]->(_34
+)
+create (_27)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_27)-[:`gives` {`points`:"2"}]->(_31
+)
+create (_27)-[:`gives` {`points`:"1"}]->(_34
+)
+create (_27)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_27)-[:`gives` {`points`:"8"}]->(_22
+)
+create (_27)-[:`gives` {`points`:"10"}]->(_2
+)
+create (_27)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_27)-[:`gives` {`points`:"5"}]->(_21
+)
+create (_27)-[:`gives` {`points`:"6"}]->(_23
+)
+create (_27)-[:`gives` {`points`:"4"}]->(_20
+)
+create (_28)-[:`gives` {`points`:"3"}]->(_27
+)
+create (_28)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_28)-[:`gives` {`points`:"1"}]->(_34
+)
+create (_28)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_28)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_28)-[:`gives` {`points`:"10"}]->(_22
+)
+create (_28)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_28)-[:`gives` {`points`:"5"}]->(_6
+)
+create (_28)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_28)-[:`gives` {`points`:"4"}]->(_20
+)
+create (_29)-[:`gives` {`points`:"3"}]->(_35
+)
+create (_29)-[:`gives` {`points`:"2"}]->(_22
+)
+create (_29)-[:`gives` {`points`:"1"}]->(_10
+)
+create (_29)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_29)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_29)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_29)-[:`gives` {`points`:"7"}]->(_20
+)
+create (_29)-[:`gives` {`points`:"5"}]->(_6
+)
+create (_29)-[:`gives` {`points`:"6"}]->(_27
+)
+create (_29)-[:`gives` {`points`:"4"}]->(_30
+)
+create (_30)-[:`gives` {`points`:"3"}]->(_4
+)
+create (_30)-[:`gives` {`points`:"2"}]->(_2
+)
+create (_30)-[:`gives` {`points`:"1"}]->(_20
+)
+create (_30)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_30)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_30)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_30)-[:`gives` {`points`:"7"}]->(_6
+)
+create (_30)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_30)-[:`gives` {`points`:"6"}]->(_27
+)
+create (_30)-[:`gives` {`points`:"4"}]->(_17
+)
+create (_31)-[:`gives` {`points`:"3"}]->(_4
+)
+create (_31)-[:`gives` {`points`:"2"}]->(_22
+)
+create (_31)-[:`gives` {`points`:"1"}]->(_35
+)
+create (_31)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_31)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_31)-[:`gives` {`points`:"10"}]->(_6
+)
+create (_31)-[:`gives` {`points`:"7"}]->(_10
+)
+create (_31)-[:`gives` {`points`:"5"}]->(_14
+)
+create (_31)-[:`gives` {`points`:"6"}]->(_1
+)
+create (_31)-[:`gives` {`points`:"4"}]->(_2
+)
+create (_32)-[:`gives` {`points`:"2"}]->(_20
+)
+create (_32)-[:`gives` {`points`:"1"}]->(_13
+)
+create (_32)-[:`gives` {`points`:"12"}]->(_22
+)
+create (_32)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_32)-[:`gives` {`points`:"10"}]->(_21
+)
+create (_32)-[:`gives` {`points`:"7"}]->(_36
+)
+create (_32)-[:`gives` {`points`:"5"}]->(_6
+)
+create (_32)-[:`gives` {`points`:"6"}]->(_27
+)
+create (_32)-[:`gives` {`points`:"3"}]->(_39
+)
+create (_32)-[:`gives` {`points`:"4"}]->(_17
+)
+create (_33)-[:`gives` {`points`:"2"}]->(_10
+)
+create (_33)-[:`gives` {`points`:"1"}]->(_22
+)
+create (_33)-[:`gives` {`points`:"12"}]->(_26
+)
+create (_33)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_33)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_33)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_33)-[:`gives` {`points`:"5"}]->(_34
+)
+create (_33)-[:`gives` {`points`:"6"}]->(_20
+)
+create (_33)-[:`gives` {`points`:"3"}]->(_2
+)
+create (_33)-[:`gives` {`points`:"4"}]->(_6
+)
+create (_34)-[:`gives` {`points`:"2"}]->(_2
+)
+create (_34)-[:`gives` {`points`:"1"}]->(_7
+)
+create (_34)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_34)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_34)-[:`gives` {`points`:"10"}]->(_26
+)
+create (_34)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_34)-[:`gives` {`points`:"5"}]->(_31
+)
+create (_34)-[:`gives` {`points`:"6"}]->(_33
+)
+create (_34)-[:`gives` {`points`:"3"}]->(_6
+)
+create (_34)-[:`gives` {`points`:"4"}]->(_27
+)
+create (_35)-[:`gives` {`points`:"2"}]->(_27
+)
+create (_35)-[:`gives` {`points`:"1"}]->(_20
+)
+create (_35)-[:`gives` {`points`:"12"}]->(_21
+)
+create (_35)-[:`gives` {`points`:"8"}]->(_36
+)
+create (_35)-[:`gives` {`points`:"10"}]->(_31
+)
+create (_35)-[:`gives` {`points`:"7"}]->(_2
+)
+create (_35)-[:`gives` {`points`:"5"}]->(_30
+)
+create (_35)-[:`gives` {`points`:"6"}]->(_6
+)
+create (_35)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_35)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_36)-[:`gives` {`points`:"2"}]->(_26
+)
+create (_36)-[:`gives` {`points`:"1"}]->(_34
+)
+create (_36)-[:`gives` {`points`:"12"}]->(_2
+)
+create (_36)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_36)-[:`gives` {`points`:"10"}]->(_6
+)
+create (_36)-[:`gives` {`points`:"7"}]->(_27
+)
+create (_36)-[:`gives` {`points`:"5"}]->(_22
+)
+create (_36)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_36)-[:`gives` {`points`:"3"}]->(_10
+)
+create (_36)-[:`gives` {`points`:"4"}]->(_20
+)
+create (_37)-[:`gives` {`points`:"2"}]->(_6
+)
+create (_37)-[:`gives` {`points`:"1"}]->(_35
+)
+create (_37)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_37)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_37)-[:`gives` {`points`:"10"}]->(_27
+)
+create (_37)-[:`gives` {`points`:"7"}]->(_31
+)
+create (_37)-[:`gives` {`points`:"5"}]->(_33
+)
+create (_37)-[:`gives` {`points`:"6"}]->(_21
+)
+create (_37)-[:`gives` {`points`:"3"}]->(_20
+)
+create (_37)-[:`gives` {`points`:"4"}]->(_22
+)
+create (_38)-[:`gives` {`points`:"2"}]->(_22
+)
+create (_38)-[:`gives` {`points`:"1"}]->(_33
+)
+create (_38)-[:`gives` {`points`:"12"}]->(_6
+)
+create (_38)-[:`gives` {`points`:"8"}]->(_2
+)
+create (_38)-[:`gives` {`points`:"10"}]->(_36
+)
+create (_38)-[:`gives` {`points`:"7"}]->(_21
+)
+create (_38)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_38)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_38)-[:`gives` {`points`:"3"}]->(_27
+)
+create (_38)-[:`gives` {`points`:"4"}]->(_10
+)
+create (_39)-[:`gives` {`points`:"2"}]->(_28
+)
+create (_39)-[:`gives` {`points`:"1"}]->(_33
+)
+create (_39)-[:`gives` {`points`:"12"}]->(_36
+)
+create (_39)-[:`gives` {`points`:"8"}]->(_21
+)
+create (_39)-[:`gives` {`points`:"10"}]->(_2
+)
+create (_39)-[:`gives` {`points`:"7"}]->(_22
+)
+create (_39)-[:`gives` {`points`:"5"}]->(_20
+)
+create (_39)-[:`gives` {`points`:"6"}]->(_31
+)
+create (_39)-[:`gives` {`points`:"3"}]->(_6
+)
+create (_39)-[:`gives` {`points`:"4"}]->(_23
+)
+;

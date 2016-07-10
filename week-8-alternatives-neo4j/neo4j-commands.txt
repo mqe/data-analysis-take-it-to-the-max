@@ -6,8 +6,15 @@ MATCH (p:person)--(c:city{city:"Belgrade"}) RETURN p
 
 MATCH (h:hobby{hobby:"Dancing"})--(p:person)--(a:age{age:"24"}) RETURN p
 
+--- Delete all ---
 
---- people who are of the same age, have a common hobby and live in the same city ---
+MATCH (n)
+
+OPTIONAL MATCH (n)-[r]-()
+
+DELETE n,r
+
+--- People who are of the same age, have a common hobby and live in the same city ---
 
 MATCH (p1:person)-[r1]-(a:age)-[r2]-(p2:person)
 
