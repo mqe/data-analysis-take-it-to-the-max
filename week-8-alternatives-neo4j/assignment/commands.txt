@@ -1,0 +1,40 @@
+--- Belgium's points? ---
+
+MATCH (m)-[r]->(n:country{name:"Belgium"}) RETURN sum(toInt(r.points))
+
+> 217
+
+--- How many countries voted for Norway? ---
+
+MATCH (m)-[r]->(n:country{name:"Norway"}) RETURN count(r.points)
+
+> 22
+
+--- Return countries that gave 12 to each other ---
+
+MATCH (n:country)-[r1:gives {points:'12'}]->(m:country)-[r2:gives {points:'12'}]->(n) RETURN *
+
+> 4 nodes
+
+--- Chained voting ---
+
+MATCH (n:country)-[r1]->(m:country)-[r2]->(n) WHERE toInt(r1.points) > 7 and toInt(r2.points) > 7 RETURN *
+
+--- The winner and sorted list of results ---
+
+MATCH m-[r]->(n:country) WITH n, sum(toInt(r.points)) AS total ORDER BY total DESC RETURN n, total LIMIT 1
+
+> Sweden 365
+
+MATCH m-[r]->(n:country) WITH n, sum(toInt(r.points)) AS total ORDER BY total DESC RETURN n, total
+
+--- The number of maximum scores per country ---
+
+MATCH (n:country)-[r:gives{points:'12'}]->(m:country) WITH m,count(n) AS c ORDER BY c DESC RETURN m,c
+
+> Sweden 12
+
+MATCH (n:country)-[r:gives]->(m:country) WITH m,count(n) AS c ORDER BY c DESC RETURN m,c
+
+> Sweden 39
+
