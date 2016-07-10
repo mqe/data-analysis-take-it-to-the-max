@@ -1,0 +1,26 @@
+Neo4j commands for analysis:
+
+MATCH(n) RETURN n
+
+MATCH (p:person)--(c:city{city:"Belgrade"}) RETURN p
+
+MATCH (h:hobby{hobby:"Dancing"})--(p:person)--(a:age{age:"24"}) RETURN p
+
+
+--- people who are of the same age, have a common hobby and live in the same city ---
+
+MATCH (p1:person)-[r1]-(a:age)-[r2]-(p2:person)
+
+MATCH (p1)-[r3]-(h:hobby)-[r4]-(p2)
+
+MATCH (p1)-[r5]-(c:city)-[r6]-(p2)
+
+RETURN *
+
+--- Shortest path ---
+
+MATCH s=shortestpath(
+
+(h:hobby {hobby:"Dancing"})-[r*]-(c:city{city:"Amsterdam"})
+
+) RETURN r
